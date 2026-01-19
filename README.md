@@ -34,6 +34,6 @@ SPL Queries USed
 2)[index=main sourcetype="csv"](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/sourcetype.png) (displays all events whose sourcetype is csv)                                                         
 3)filtering Queries
   ->[index=main sourcetype=csv Id=10016](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Filtering.png) (displays all events whose id's are 10016) 
-  ->index=main sourcetype=csv UserId="S-1-5-18" (displays all events whose USerid's are S-1-5-18) 
+  ->[index=main sourcetype=csv UserId="S-1-5-18"](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Filtering%20III.png) (displays all events whose USerid's are S-1-5-18) 
   ->index=main sourcetype=csv Message=" " (displays all events whose Message is " ") 
   
