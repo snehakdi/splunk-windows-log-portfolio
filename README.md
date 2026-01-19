@@ -42,4 +42,6 @@ SPL Queries Used
   ->[index=main sourcetype=csv UserId="S-1-5-18"](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Filtering%20III.png) (displays all events whose USerid's are S-1-5-18) 
   
   ->[index=main sourcetype=csv Message=" "](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Filtering%20IV.png) (displays all events whose Message is " ") 
+
+  ->Visual representation of errors,warnings,information using [Pie chart](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Visual%20representation.png)
   
