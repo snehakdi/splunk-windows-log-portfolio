@@ -65,10 +65,17 @@ SPL Queries Used
    remote or unauthorized access activity.  
 
 
- ANALYSIS USING SYSTEM LOGS
-(i)[ index=main sourcetupe=csv Level IN("Error","Warning","Information") | stats count by Level  ](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Visual%20representation.png)  
+ ANALYSIS USING SYSTEM ANS APPLICATION LOGS
+(i)[ index=main sourcetype=csv Level IN("Error","Warning","Information") | stats count by Level  ](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Visual%20representation.png)  
 Analyzed Windows System logs in Splunk to categorize events by severity level (Error, Warning, Information). This query helps visualize system health, identify critical issues, and establish a baseline for normal system behavior.  
 
-(ii)index=main sourcetype=csv Message="*fail*" OR Message="*crash*" OR Message="*shutdown*"  
-Analyzed system logs in Splunk using keyword-based detection to identify failure, crash, and shutdown events.
+(ii)[index=main sourcetype=csv Message="*fail*" OR Message="*crash*" OR Message="*shutdown*"  ](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/system%20error.png)
+Analyzed system logs in Splunk using keyword-based detection to identify failure, crash, and shutdown events.  
+
+
+ALERTS FOR MONITORING
+
+Configured a real-time Splunk alert for application crash events.Tried using email notifications but  email notifications are not supported in the free version, the alert triggers in the Splunk interface, and all actions, and configurations were tested successfully (screenshot available). This demonstrates the ability to monitor and respond to critical application failures proactively.”
+
+
   
