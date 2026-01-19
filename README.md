@@ -30,7 +30,7 @@ Ingestion Method:
 - Splunk Enterprise → Add Data → Local Event Logs
 
 SPL Queries USed
-1)index =main (Displays all the events)
+1)index =main (Displays all the events) 
 2)[index=main sourcetype="csv"](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/sourcetype.png) (displays all events whose sourcetype is csv)                                                         
 3)filtering Queries 
 
