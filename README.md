@@ -47,7 +47,7 @@ SPL Queries Used
   LOGON BEHAVIOUR ANALYSIS USING SECURITY LOGS
  [ index=main EventID=4624 | stats count by LogonType](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Security.png)
 
- LogonType 2 (Interactive): Local user logins via keyboard and screen
+ LogonType 2 (Interactive): Local user logins via keyboard and screen.
 
 LogonType 7 (Unlock): Users unlocking existing sessions
 
