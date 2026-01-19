@@ -29,5 +29,5 @@ All data used in this project comes from **real Windows Event Logs** generated o
 **Ingestion Method:**
 - Splunk Enterprise → Add Data → Local Event Logs
 
-**Index Used:**
-
+[**Index Used:**
+](https://github.com/snehakdi/splunk-windows-log-portfolio/blob/main/screenshots/Filtering%20II.png)
