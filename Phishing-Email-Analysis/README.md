@@ -85,6 +85,8 @@ The analysis focuses on:
 
 ---
 
+Please refer these screenshots[ 1.png](https://github.com/snehakdi/SOC-Projects/blob/main/Phishing-Email-Analysis/Screenshots/Phishing1.png),[2.png](https://github.com/snehakdi/SOC-Projects/blob/main/Phishing-Email-Analysis/Screenshots/Phishing2.png)
+
 ## Indicators of Compromise (IOCs)
 
 | Type               | Indicator                         |
