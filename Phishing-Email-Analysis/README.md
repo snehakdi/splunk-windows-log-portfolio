@@ -37,7 +37,7 @@ The analysis focuses on:
 
 * **Subject:** Important alert for MAC users about HP printers
 * **Sender Display Name:** Apple
-* **Sender Email Address:** [printing@apple-account-support.com](mailto:printing@apple-account-support.com)
+* **Sender Email Address:** printing@apple-account-support.com
 * **Target Audience:** macOS users
 * **Call to Action:** Urgent update required via provided link
 
@@ -70,9 +70,8 @@ The analysis focuses on:
 
 * Displayed link text:
 
-  ```
-  https://www.PrinterConnect.org/hp-certificate
-  ```
+   https://www.PrinterConnect.org/hp-certificate
+
 * Hovered / actual URL contains unrelated and suspicious keywords such as:
 
   * `password-changes`
